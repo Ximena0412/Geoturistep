@@ -1,0 +1,40 @@
+body {
+    height: 800px;
+    background-image: url("https://wallpapercave.com/uwp/uwp3723823.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+body {
+    color: #0f0807;
+}
+
+h1 {
+    color: hsl(400, 2%, 12%);
+}
+
+h1 {
+    color: hsl(400, 2%, 12%);
+}
+
+
+/* para agregarlo a todos los encabezados has esto */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(197, 79%, 26%);
+}
+
+p.fant {
+    font-family: fantasy;
+    font-size: 50px;
+}

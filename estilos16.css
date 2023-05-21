@@ -1,0 +1,40 @@
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+body {
+    height: 2400px;
+    background-color: rgb(78, 137, 148);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.slider-container {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    overflow-x: scroll;
+}
+
+.slider-container img {
+    flex: 0 0 100%;
+    width: 80%;
+    object-fit: cover;
+}

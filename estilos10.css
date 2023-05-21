@@ -1,0 +1,35 @@
+body {
+    height: 1400px;
+    background-color: black;
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    
+    
+  }
+
+  .oblique {
+    font-style: oblique;
+  }
+
+
+  body {
+    color: #96362f;
+  }
+  h1 {
+    color: hsl(227, 2%, 12%);
+  }
+  h1 {
+    color: hsl(227, 2%, 12%);
+  }
+  
+  /* para agregarlo a todos los encabezados has esto */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: hsl(197, 79%, 26%);
+  }

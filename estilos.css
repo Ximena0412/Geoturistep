@@ -1,0 +1,19 @@
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: Arial Black;
+}
+
+p.oblique {
+    font-style: oblique;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}

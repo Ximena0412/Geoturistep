@@ -1,0 +1,54 @@
+.img19 {
+
+    width: 170px;
+    height: 170px;
+
+}
+.img20 {
+
+    width: 170px;
+    height: 170px;
+
+}
+
+.img21 {
+
+    width: 170px;
+    height: 170px;
+
+}
+body {
+    height: 1800px;
+    background-image: url("https://scontent.fpbc2-3.fna.fbcdn.net/v/t39.30808-6/276029932_364663975665887_26409732115318182_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Mn5BMcvwtAQAX-X9jJ5&_nc_ht=scontent.fpbc2-3.fna&oh=00_AfBBKSmVK80nvNpqhiDkXdHIAOeXWZjM7QV7QamPVKwfLA&oe=643B4CAA");
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    
+    
+  }
+
+  .oblique {
+    font-style: oblique;
+  }
+
+
+  body {
+    color: #0a386b;
+  }
+  h1 {
+    color: hsl(227, 2%, 12%);
+  }
+  h1 {
+    color: hsl(227, 2%, 12%);
+  }
+  
+  /* para agregarlo a todos los encabezados has esto */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: hsl(197, 79%, 26%);
+  }

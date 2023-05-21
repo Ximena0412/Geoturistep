@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViveTepeaca</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+
+<body>
+    <font face="Comic Sans MS,Arial,Brush Script MT">
+        <CEnter>
+            <h1 style="color: #c9c9c975">------------TEPEACA-------------</h1>
+
+            <BOdy>
+                <p style="color: #d1cfd0" ;> </p>
+            </BOdy>
+
+            <h2 style="color: #e9e9e9">HISTORIA</h2>
+            Tepeaca es una ciudad del estado mexicano de Puebla, es la cabecera del municipio del mismo nombre. Se ubica a 35 km de la Ciudad de Puebla, está ubicada en el Valle de Tepeaca-Tecali de Herrera.
+
+
+
+            <P>"Su nombre proviene de una alteración castellana de "Tepeyacatl", compuesto de las voces náhuatl tepetl 'cerro' - piedra y yacatl 'nariz, punta, lo que está en primer plano' (puede traducirse de varios modos 'en la punta del cerro' o 'el cerro
+                de enfrente' o 'el principio de los cerros'). Se le ha denominado "Tepeaca de Negrete" porque nació y vivió el Gral. Miguel Negrete Novoa. Se extrae y procesa ónix y mármol junto con el vecino municipio de Tecali de Herrera .".
+
+                <p>Tepeaca es famosa por ser el lugar en donde se venera al Santo Niño Jesús Doctor de los Enfermos, una imagen del Niño Dios que fue traída por unas monjas de la orden de las josefina. En la parroquia que es venerado el Niño Doctor afuera
+                    hay expos en la explanada los días sábados y domingo que consta con más de 100 puestos, para que puedas adquirir algunas piezas de ónix, mármol, dulces típicos, vestimenta tradicional e incluso piezas de yeso</P>
+
+                <img src="https://i0.wp.com/tepeacanoticias.com/wp-content/uploads/2020/04/Captura-de-pantalla-2020-04-25-a-las-16.44.38.png?fit=463%2C595&ssl=1" alt="">
+
+
+
+                <img src="http://www.pueblaonline.com.mx/2014/portal/media/k2/galleries_p/28840/TEPE1.jpg" class="img27" alt=>
+            </p>
+            <h3 style="color: #d7d8e7"></h3>
+
+            <div>
+                <html>
+
+                <head>
+                    <style>
+                        .slide {
+                            position: relative;
+                            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+                            margin-top: 26px;
+                        }
+                        
+                        .slide-inner {
+                            position: relative;
+                            overflow: hidden;
+                            width: 100%;
+                            height: calc( 300px + 3em);
+                        }
+                        
+                        .slide-open:checked+.slide-item {
+                            position: static;
+                            opacity: 100;
+                        }
+                        
+                        .slide-item {
+                            position: absolute;
+                            opacity: 0;
+                            -webkit-transition: opacity 0.6s ease-out;
+                            transition: opacity 0.6s ease-out;
+                        }
+                        
+                        .slide-item img {
+                            display: block;
+                            height: auto;
+                            max-width: 100%;
+                        }
+                        
+                        .slide-control {
+                            background: rgba(0, 0, 0, 0.28);
+                            border-radius: 50%;
+                            color: #fff;
+                            cursor: pointer;
+                            display: none;
+                            font-size: 40px;
+                            height: 40px;
+                            line-height: 35px;
+                            position: absolute;
+                            top: 50%;
+                            -webkit-transform: translate(0, -50%);
+                            cursor: pointer;
+                            -ms-transform: translate(0, -50%);
+                            transform: translate(0, -50%);
+                            text-align: center;
+                            width: 40px;
+                            z-index: 10;
+                        }
+                        
+                        .slide-control.prev {
+                            left: 2%;
+                        }
+                        
+                        .slide-control.next {
+                            right: 2%;
+                        }
+                        
+                        .slide-control:hover {
+                            background: rgba(0, 0, 0, 0.8);
+                            color: #aaaaaa;
+                        }
+                        
+                        #slide-1:checked~.control-1,
+                        #slide-2:checked~.control-2,
+                        #slide-3:checked~.control-3 {
+                            display: block;
+                        }
+                        
+                        .slide-indicador {
+                            list-style: none;
+                            margin: 0;
+                            padding: 0;
+                            position: absolute;
+                            bottom: 2%;
+                            left: 0;
+                            right: 0;
+                            text-align: center;
+                            z-index: 10;
+                        }
+                        
+                        .slide-indicador li {
+                            display: inline-block;
+                            margin: 0 5px;
+                        }
+                        
+                        .slide-circulo {
+                            color: #828282;
+                            cursor: pointer;
+                            display: block;
+                            font-size: 35px;
+                        }
+                        
+                        .slide-circulo:hover {
+                            color: #aaaaaa;
+                        }
+                        
+                        #slide-1:checked~.control-1~.slide-indicador li:nth-child(1) .slide-circulo,
+                        #slide-2:checked~.control-2~.slide-indicador li:nth-child(2) .slide-circulo,
+                        #slide-3:checked~.control-3~.slide-indicador li:nth-child(3) .slide-circulo {
+                            color: #e9ebec;
+                        }
+                        
+                        #titulo {
+                            width: 100%;
+                            position: absolute;
+                            padding: 0px;
+                            margin: 0px auto;
+                            text-align: center;
+                            font-size: 27px;
+                            color: rgba(255, 255, 255, 1);
+                            font-family: 'Open Sans', sans-serif;
+                            z-index: 9999;
+                            text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+                        }
+                    </style>
+                </head>
+
+                <body>
+                    <div class="slide">
+                        <div class="slide-inner">
+                            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+                            <div class="slide-item">
+                                <img src="https://www.debate.com.mx/__export/1556579056302/sites/debate/img/2019/04/29/d4jxlhswkaingz_ddddd_1.jpg_172596871.jpg" class="img30" alt=>
+                            </div>
+                            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                            <div class="slide-item">
+                                <img src="https://pueblaonline.com.mx/2014/portal/media/k2/galleries_p/28840/TEPE3.jpg" class="img31" alt=>
+                            </div>
+                            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                            <div class="slide-item">
+                                <img src="https://revistamanera.files.wordpress.com/2022/09/a-feria-de-san-francico-de-asis-tepeaca.jpg?w=585">
+                            </div>
+                            <input class="slide-open" type="radio" id="slide-4" name="slide" aria-hidden="true" hidden="">
+                            <div class="slide-item">
+                                <img src="https://sic.gob.mx/imagenes_cache/fnme_113_g_1481.png">
+                            </div>
+                            <label for="slide-3" class="slide-control prev control-1">‹</label>
+                            <label for="slide-2" class="slide-control next control-1">›</label>
+                            <label for="slide-1" class="slide-control prev control-2">‹</label>
+                            <label for="slide-3" class="slide-control next control-2">›</label>
+                            <label for="slide-2" class="slide-control prev control-3">‹</label>
+                            <label for="slide-1" class="slide-control next control-3">›</label>
+                            <ol class="slide-indicador">
+                                <li>
+                                    <label for="slide-1" class="slide-circulo">•</label>
+                                </li>
+                                <li>
+                                    <label for="slide-2" class="slide-circulo">•</label>
+                                </li>
+                                <li>
+                                    <label for="slide-3" class="slide-circulo">•</label>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </body>
+
+                </html>
+
+            </div>
+
+            <div>
+                <p>TRADICIONES Y COSTUMBRES</p>
+
+                <P>El 30 de abril se realizan las Solemnidades del Santo Niño Jesús Doctor de los Enfermos, ahí llegan peregrinaciones de varias partes de México a visitarlo. La imagen del Santo Niño se venera desde 1942 en Tepeaca.</P>
+                Las personas de algunos pueblos como son: Benito Juárez, San Cristóbal Los Nava, San Pedro Entre Otros Pueblos tienen por costumbre ir caminando desde su pueblo hasta la Parroquia ya que esta costumbre la hacen año con año por lo milagroso que es el Santo
+                Niño Doctor. En el mes de octubre se realiza la Feria Regional, con exposición del ónix y mármol, el 4 de ese mes se realiza la Fiesta Patronal de San Francisco de Asís.
+                <img src="https://ciudadtrendy.mx/wp-content/uploads/2020/09/Santo-Nino-Doctor-Tepeaca-Puebla-3.jpg" class="img27" alt=>
+                <img src="" class="img28" alt=>
+                <center>
+                    <div>
+
+                    </div>
+                    <iframe src="" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <p>
+                        <a href=""></a>
+                    </p>
+                    <div>
+
+                    </div>
+            </div>
+            </center>
+        </CEnter>
+        <h4>GASTRONOMIA</h4>
+        <P> Las tradicionales carnitas, cueritos, el chicharrón, tamales , cecina, barbacoa y mole poblano. Buñuelos, dulce de calabaza, higo, jamoncillo de semilla y en Todos los Santos se hacen figuras de pepita en dulce vidriado. Se sirve pulque de maguey,
+            chocolate y atole de masa.</P>
+        <img src="http://fotos.e-consulta.com/ruta-del-marisco-216937.jpg?t=" alt="">
+        <img src="https://i0.wp.com/tepeacanoticias.com/wp-content/uploads/2018/08/mercado-tepeaca10.png?resize=640%2C410" alt="">
+        <img src="https://i0.wp.com/tepeacanoticias.com/wp-content/uploads/2018/08/mercado-tepeaca-4.png?resize=640%2C364" alt="">
+
+        </nav>
+        <center>
+            <h2>¡Visita tepeaca!</h2>
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                <script>
+                    (function() {
+                        var setting = {
+                            "height": 557,
+                            "width": 792,
+                            "zoom": 14,
+                            "queryString": "Tepeaca, Puebla, México",
+                            "place_id": "ChIJ5-2Fb0WMz4URa_eDivW4Yoc",
+                            "satellite": false,
+                            "centerCoord": [18.964557145303356, -97.89723503821634],
+                            "cid": "0x8762b8f58a83f76b",
+                            "lang": "es",
+                            "cityUrl": "/mexico/tecamachalco-326964",
+                            "cityAnchorText": "Mapa de Tecamachalco, Puebla, México",
+                            "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                            "embed_id": "927698"
+                        };
+                        var d = document;
+                        var s = d.createElement('script');
+                        s.src = 'https://1map.com/js/script-for-user.js?embed_id=927698';
+                        s.async = true;
+                        s.onload = function(e) {
+                            window.OneMap.initMap(setting)
+                        };
+                        var to = d.getElementsByTagName('script')[0];
+                        to.parentNode.insertBefore(s, to);
+                    })();
+                </script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+        </center>
+        <CEnter>
+            <P>FACEBOOK OFICIAL</P>
+            <a href="">https://www.facebook.com/ViveTepeaca</a>.</CEnter>
+
+</body>
+
+</html>

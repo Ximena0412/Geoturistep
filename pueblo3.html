@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaCunaDelMarmol</title>
+    <link rel="stylesheet" href="estilos12.css">
+</head>
+
+<body>
+    <font face="Comic Sans MS,Arial,Brush Script MT">
+        <CEnter>
+            <h1 style="color: #04162575">------------TECALI DE HERRERA-------------</h1>
+            <p>Era uno de los puntos de paso hacia Veracruz y la hoy Ciudad de México y de las ciudades más importantes para la cultura tolteca-chichimeca de la región. Tecali de Herrera perteneció a la provincia del Santo Evangelio, fundada por la orden
+                de los franciscanos llegados a la Nueva España</p>
+
+            <BOdy>
+                <p style="color: #55051f" ;> </p>
+            </BOdy>
+
+            <h2 style="color: #850808">HISTORIA</h2>
+            Tecali de Herrera es uno de los bellos municipios que conforman el estado de Puebla. Se ubica a 30 minutos de la ciudad capital, la conocida Angelópolis.
+            <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2022/05/Tecali-de-Herrera_Ex-convento-foto-eleguraieb-flickr-900x532.jpg" alt="img28">
+
+            <p>Tecali significa “casa de piedra” o “donde tienen las casas de piedra” y se encuentra al suroeste de Puebla, muy cerca de la ciudad capital. Estaba poblada por nahuas y popolocas y aunque era tributario del pueblo mexica, se sabe que fue un
+                centro indígena importante llamado Tecalco. En la región se elaboran bellísimas artesanías de ónix y mármol</p>
+            <img src="https://scontent.fpbc2-1.fna.fbcdn.net/v/t31.18172-8/10547860_269679569903064_854759026473188862_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeGGGYpg5c4dR2n4_fyF0wHL0SYP7rF6bIrRJg_usXpsip-JPXWuPGD2cthQWiw_Gwltni0zl0rTAbaSKdp70uMb&_nc_ohc=syIPAeWOgNcAX_8Mdc0&_nc_ht=scontent.fpbc2-1.fna&oh=00_AfAxm91REqJM5G0eZpnKJE7-Vzqss6Se_t1apqWker0fLg&oe=648B8DF9"
+                alt="img28">
+            <P>Tecali de Herrera perteneció a la provincia del Santo Evangelio, fundada por la orden de los franciscanos llegados a la Nueva España.</P>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Interior_del_ex-convento_franciscano_de_Tecali_de_Herrera.JPG/800px-Interior_del_ex-convento_franciscano_de_Tecali_de_Herrera.JPG" alt="img27">
+
+
+
+            </p>
+            <h3 style="color: #dddee6"></h3>
+
+            <div>
+                <html>
+
+                <head>
+                    <style>
+                        .slide {
+                            position: relative;
+                            box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+                            margin-top: 26px;
+                        }
+                        
+                        .slide-inner {
+                            position: relative;
+                            overflow: hidden;
+                            width: 100%;
+                            height: calc( 300px + 3em);
+                        }
+                        
+                        .slide-open:checked+.slide-item {
+                            position: static;
+                            opacity: 100;
+                        }
+                        
+                        .slide-item {
+                            position: absolute;
+                            opacity: 0;
+                            -webkit-transition: opacity 0.6s ease-out;
+                            transition: opacity 0.6s ease-out;
+                        }
+                        
+                        .slide-item img {
+                            display: block;
+                            height: auto;
+                            max-width: 100%;
+                        }
+                        
+                        .slide-control {
+                            background: rgba(0, 0, 0, 0.28);
+                            border-radius: 50%;
+                            color: #fff;
+                            cursor: pointer;
+                            display: none;
+                            font-size: 40px;
+                            height: 40px;
+                            line-height: 35px;
+                            position: absolute;
+                            top: 50%;
+                            -webkit-transform: translate(0, -50%);
+                            cursor: pointer;
+                            -ms-transform: translate(0, -50%);
+                            transform: translate(0, -50%);
+                            text-align: center;
+                            width: 40px;
+                            z-index: 10;
+                        }
+                        
+                        .slide-control.prev {
+                            left: 2%;
+                        }
+                        
+                        .slide-control.next {
+                            right: 2%;
+                        }
+                        
+                        .slide-control:hover {
+                            background: rgba(0, 0, 0, 0.8);
+                            color: #aaaaaa;
+                        }
+                        
+                        #slide-1:checked~.control-1,
+                        #slide-2:checked~.control-2,
+                        #slide-3:checked~.control-3 {
+                            display: block;
+                        }
+                        
+                        .slide-indicador {
+                            list-style: none;
+                            margin: 0;
+                            padding: 0;
+                            position: absolute;
+                            bottom: 2%;
+                            left: 0;
+                            right: 0;
+                            text-align: center;
+                            z-index: 10;
+                        }
+                        
+                        .slide-indicador li {
+                            display: inline-block;
+                            margin: 0 5px;
+                        }
+                        
+                        .slide-circulo {
+                            color: #828282;
+                            cursor: pointer;
+                            display: block;
+                            font-size: 35px;
+                        }
+                        
+                        .slide-circulo:hover {
+                            color: #aaaaaa;
+                        }
+                        
+                        #slide-1:checked~.control-1~.slide-indicador li:nth-child(1) .slide-circulo,
+                        #slide-2:checked~.control-2~.slide-indicador li:nth-child(2) .slide-circulo,
+                        #slide-3:checked~.control-3~.slide-indicador li:nth-child(3) .slide-circulo {
+                            color: #428bca;
+                        }
+                        
+                        #titulo {
+                            width: 100%;
+                            position: absolute;
+                            padding: 0px;
+                            margin: 0px auto;
+                            text-align: center;
+                            font-size: 27px;
+                            color: rgba(255, 255, 255, 1);
+                            font-family: 'Open Sans', sans-serif;
+                            z-index: 9999;
+                            text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+                        }
+                    </style>
+                </head>
+
+                <body>
+                    <div class="slide">
+                        <div class="slide-inner">
+                            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+                            <div class="slide-item">
+                                <img src="https://lasvelasonix.com/wp-content/uploads/2017/06/Conoce-Tecali-32.jpg">
+                            </div>
+                            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                            <div class="slide-item">
+                                <img src="https://i.pinimg.com/originals/41/0f/de/410fdeb975d88159f859624b3b8a3c54.jpg">
+                            </div>
+                            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                            <div class="slide-item">
+                                <img src="https://www.aboutespanol.com/thmb/aNilNynyi8ZGTWN5raUqoa1rE0o=/2048x1536/filters:no_upscale():max_bytes(150000):strip_icc()/Tiendas-de-artesanias-en-Tecali-597b831b3df78cbb7a24edb9.JPG">
+                            </div>
+                            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                            <div class="slide-item">
+                                <img src="https://i.ytimg.com/vi/SKj5AG2EhrA/maxresdefault.jpg">
+                            </div>
+                            <label for="slide-3" class="slide-control prev control-1">‹</label>
+                            <label for="slide-2" class="slide-control next control-1">›</label>
+                            <label for="slide-1" class="slide-control prev control-2">‹</label>
+                            <label for="slide-3" class="slide-control next control-2">›</label>
+                            <label for="slide-2" class="slide-control prev control-3">‹</label>
+                            <label for="slide-1" class="slide-control next control-3">›</label>
+                            <ol class="slide-indicador">
+                                <li>
+                                    <label for="slide-1" class="slide-circulo">•</label>
+                                </li>
+                                <li>
+                                    <label for="slide-2" class="slide-circulo">•</label>
+                                </li>
+                                <li>
+                                    <label for="slide-3" class="slide-circulo">•</label>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </body>
+
+                </html>
+
+            </div>
+
+            <div>
+                <p>TRADICIONES Y COSTUMBRES</p>
+
+                <P>Las fiestas se celebran con cohetones, misas, arreglos florales, procesiones, juegos mecánicos y gastronomía típica de la región. También está la Feria de Analco el 25 de agosto, el aniversario de la Gesta Heroica en mayo y el 13 de junio,
+                    la fiesta a San Antonio de Padua.</P>
+
+                <P> La recomendación es probar la cecina, pero también encontrarás platillos típicos con el sazón de la región, como barbacoa, carnitas, quesadillas, tacos. Pasea por la plaza central de Tecali mientras te refrescas con helado artesanal 100%
+                    poblano.</P>
+
+                <img src="http://turismoenpuebla.com/portal/cont_imgs/desp/Carnaval_Tecali_de_Herrera_.jpg" class="img28" alt=>
+                <img src="https://www.defin.mx/wp-content/uploads/2015/09/experience-82-1-sabores-de-xochimilco_1141x478_cropFromCenter.jpg" class="img28" alt=>
+                <img src="https://poderdelanoticia.com/wp-content/uploads/2019/07/Tecali-feria-2.jpg" class="img28" alt=>
+                <center>
+                    <div>
+
+                    </div>
+                    <iframe src="" width="180" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <p>
+                        <a href=""></a>
+                    </p>
+                    <div>
+
+                    </div>
+            </div>
+            </center>
+        </CEnter>
+        <center>
+
+
+            <p>ARTESANIAS</p>
+
+
+            <P>Los artesanos de Tecali son especialistas en los trabajos de ónix, y los antecedentes de su maestría se remontan cinco siglos atrás, cuando este material ya era aprovechado por los pueblos mesoamericanos, quienes llegaron a utilizarlo para
+                la construcción de altares y estelas como el caso de las que han sido halladas en la zona arqueológica de Cholula.</P>
+
+
+            <img src="https://scontent.fpbc2-2.fna.fbcdn.net/v/t1.18169-9/10453337_267539366783751_6186678592214424503_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9267fe&_nc_eui2=AeFKTanLqG2YpVwXiMdDn65sbPqJwAdYBBps-onAB1gEGkhgqweI6cZXHITFf0xYqE__h5G4pEHauFXpLRRhkEVV&_nc_ohc=E_hWL72I1skAX8yLtzY&_nc_ht=scontent.fpbc2-2.fna&oh=00_AfASM5nBJkURxk4WNs8DPbEvQr3HJzz66ILpm3iz1iql4Q&oe=648B9075"
+                alt="img23">
+            <img src="" alt="img23">
+        </center>
+        <Center>
+            <p>¡Visita Tecali!</p>
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                <script>
+                    (function() {
+                        var setting = {
+                            "height": 557,
+                            "width": 792,
+                            "zoom": 15,
+                            "queryString": "Tecali de Herrera, Pue., México",
+                            "place_id": "ChIJzUYJwSOOz4URBLinfnHX4YM",
+                            "satellite": false,
+                            "centerCoord": [18.901633074666602, -97.97259747494928],
+                            "cid": "0x83e1d7717ea7b804",
+                            "lang": "es",
+                            "cityUrl": "/mexico/tecali-de-herrera-466162",
+                            "cityAnchorText": "Mapa de Tecali de Herrera, Puebla, México",
+                            "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+                            "embed_id": "927698"
+                        };
+                        var d = document;
+                        var s = d.createElement('script');
+                        s.src = 'https://1map.com/js/script-for-user.js?embed_id=927698';
+                        s.async = true;
+                        s.onload = function(e) {
+                            window.OneMap.initMap(setting)
+                        };
+                        var to = d.getElementsByTagName('script')[0];
+                        to.parentNode.insertBefore(s, to);
+                    })();
+                </script><a href="https://1map.com/es/map-embed">1 Map</a></div>
+        </Center>
+
+        <CEnter>
+            <P>FACEBOOK OFICIAL</P>
+            <a href="">https://www.facebook.com/TecaliPuebla</a>.</CEnter>
+
+
+        </nav>
+
+</body>
+
+</html>

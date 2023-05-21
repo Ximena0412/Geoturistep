@@ -1,0 +1,59 @@
+.img8 {
+
+    width: 190px;
+    height: 170px;
+
+}
+.img9 {
+
+    width: 190px;
+    height: 170px;
+
+}
+
+.img10 {
+
+    width: 190px;
+    height: 170px;
+
+}
+.img11 
+        {
+            width: 190px;
+            height: 170px;
+}
+body {
+    height: 1800px;
+    background-image: url("http://www.colores.org.es/imagenes_colores/negro--html.jpg");
+  background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    
+    
+  }
+
+  .oblique {
+    font-style: oblique;
+  }
+
+
+  body {
+    color: #1d044d;
+  }
+  h1 {
+    color: hsl(227, 2%, 12%);
+  }
+  h1 {
+    color: hsl(227, 2%, 12%);
+  }
+  
+  /* para agregarlo a todos los encabezados has esto */
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: hsl(197, 79%, 26%);
+  }

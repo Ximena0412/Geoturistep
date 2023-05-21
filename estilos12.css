@@ -1,0 +1,60 @@
+.img27 {
+    width: 170px;
+    height: 170px;
+}
+
+.img28 {
+    width: 170px;
+    height: 170px;
+}
+
+.img29 {
+    width: 170px;
+    height: 170px;
+}
+
+.img30 {
+    width: 170px;
+    height: 170px;
+}
+
+.img31 {
+    width: 570px;
+    height: 170px;
+}
+
+body {
+    height: 3400px;
+    background-color: rgb(143, 167, 38);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+body {
+    color: #000000;
+}
+
+h1 {
+    color: hsl(227, 2%, 12%);
+}
+
+h1 {
+    color: hsl(227, 2%, 12%);
+}
+
+
+/* para agregarlo a todos los encabezados has esto */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(197, 79%, 26%);
+}

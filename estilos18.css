@@ -1,0 +1,50 @@
+.img25 {
+    width: 170px;
+    height: 170px;
+}
+
+.img26 {
+    width: 170px;
+    height: 170px;
+}
+
+.img27 {
+    width: 170px;
+    height: 170px;
+}
+
+body {
+    height: 1800px;
+    background-image: url("https://wallpapercave.com/wp/wp2730855.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+body {
+    color: #e9e9ec;
+}
+
+h1 {
+    color: hsl(327, 50%, 32%);
+}
+
+h1 {
+    color: hsl(182, 61%, 29%);
+}
+
+
+/* para agregarlo a todos los encabezados has esto */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(197, 79%, 26%);
+}
